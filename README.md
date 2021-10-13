@@ -12,3 +12,5 @@
 
 ### Ferramentas Offline
 ![Alt text](http://kmc.rf.gd/aio/wp-content/uploads/2021/04/image-44.png )
+
+Para visualizar os arquivos fonte visite <a href="http://kmc.rf.gd/files/#files%2FRagTools">Rag Tools</a>
