@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{881C24D5-CB50-481D-ACA1-386D5E62E018}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>RagTools</RootNamespace>
+    <AssemblyName>RagTools</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DotNetBrowser.WinForms">
+      <HintPath>..\..\..\appdata\local\microsoft\visualstudio\16.0_a8782425\extensions\4v4xdplr.zsr\Library\bin\Release\net45\DotNetBrowser.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.WebView2.Core, Version=1.0.774.44, Culture=neutral, PublicKeyToken=2a8ab48044d2601e, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Web.WebView2.1.0.774.44\lib\net45\Microsoft.Web.WebView2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.WebView2.WinForms, Version=1.0.774.44, Culture=neutral, PublicKeyToken=2a8ab48044d2601e, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Web.WebView2.1.0.774.44\lib\net45\Microsoft.Web.WebView2.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.WebView2.Wpf, Version=1.0.774.44, Culture=neutral, PublicKeyToken=2a8ab48044d2601e, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Web.WebView2.1.0.774.44\lib\net45\Microsoft.Web.WebView2.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Adicional.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Adicional.Designer.cs">
+      <DependentUpon>Adicional.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DB_RE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DB_RE.Designer.cs">
+      <DependentUpon>DB_RE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FerramentasOffline.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FerramentasOffline.Designer.cs">
+      <DependentUpon>FerramentasOffline.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainMenu.Designer.cs">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FerramentasOnline.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FerramentasOnline.Designer.cs">
+      <DependentUpon>FerramentasOnline.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="DB_Old.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DB_Old.Designer.cs">
+      <DependentUpon>DB_Old.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Simuladores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Simuladores.Designer.cs">
+      <DependentUpon>Simuladores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sprites.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sprites.Designer.cs">
+      <DependentUpon>Sprites.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Adicional.resx">
+      <DependentUpon>Adicional.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DB_RE.resx">
+      <DependentUpon>DB_RE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FerramentasOffline.resx">
+      <DependentUpon>FerramentasOffline.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainMenu.resx">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FerramentasOnline.resx">
+      <DependentUpon>FerramentasOnline.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="DB_Old.resx">
+      <DependentUpon>DB_Old.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Simuladores.resx">
+      <DependentUpon>Simuladores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sprites.resx">
+      <DependentUpon>Sprites.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kafra_09.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BTN_1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BTN_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\balao.PNG" />
+    <Content Include="Resources\BTN_MINI_1.png" />
+    <None Include="Resources\BTN_MINI_21.png" />
+    <None Include="Resources\BTN_MINI_11.png" />
+    <Content Include="Resources\BTN_MINI_2.png" />
+    <None Include="Resources\kafra_bg.png" />
+    <None Include="Resources\cursor_link.ico" />
+    <None Include="Resources\cursor.ico" />
+    <Content Include="Resources\cursor.png" />
+    <Content Include="Resources\cursor_link.png" />
+    <Content Include="Resources\link.ico" />
+    <Content Include="Resources\point.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="packages\Microsoft.Web.WebView2.1.0.774.44\build\Microsoft.Web.WebView2.targets" Condition="Exists('packages\Microsoft.Web.WebView2.1.0.774.44\build\Microsoft.Web.WebView2.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Este projeto faz referência a pacotes do NuGet que não estão presentes neste computador. Use a Restauração de Pacotes do NuGet para baixá-los.  Para obter mais informações, consulte http://go.microsoft.com/fwlink/?LinkID=322105. O arquivo ausente é {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\Microsoft.Web.WebView2.1.0.774.44\build\Microsoft.Web.WebView2.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Microsoft.Web.WebView2.1.0.774.44\build\Microsoft.Web.WebView2.targets'))" />
+  </Target>
+</Project>

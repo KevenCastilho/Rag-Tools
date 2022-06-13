@@ -1,0 +1,7 @@
+2021/03/11-20:36:24.453 28a4 Reusing MANIFEST C:\Users\Keven Castilho\source\repos\RagTools\bin\Debug\RagTools.exe.WebView2\EBWebView\Default\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/03/11-20:36:24.460 28a4 Recovering log #3
+2021/03/11-20:36:24.461 28a4 Reusing old log C:\Users\Keven Castilho\source\repos\RagTools\bin\Debug\RagTools.exe.WebView2\EBWebView\Default\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/000003.log 
+2021/03/11-20:37:06.655 34d8 Level-0 table #5: started
+2021/03/11-20:37:06.661 34d8 Level-0 table #5: 9986 bytes OK
+2021/03/11-20:37:06.667 34d8 Delete type=0 #3
+2021/03/11-20:37:06.668 34d8 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

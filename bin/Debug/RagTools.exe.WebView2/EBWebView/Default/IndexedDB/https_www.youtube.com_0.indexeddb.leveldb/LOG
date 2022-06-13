@@ -1,0 +1,15 @@
+2021/04/03-20:14:40.642 3f8c Reusing MANIFEST C:\Users\Keven Castilho\source\repos\RagTools\bin\Debug\RagTools.exe.WebView2\EBWebView\Default\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/04/03-20:14:40.646 3f8c Recovering log #4
+2021/04/03-20:14:40.646 3f8c Reusing old log C:\Users\Keven Castilho\source\repos\RagTools\bin\Debug\RagTools.exe.WebView2\EBWebView\Default\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/000004.log 
+2021/04/03-20:15:18.636 248c Level-0 table #8: started
+2021/04/03-20:15:18.639 248c Level-0 table #8: 1225 bytes OK
+2021/04/03-20:15:18.641 248c Delete type=0 #4
+2021/04/03-20:15:18.642 248c Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/04/03-20:15:18.642 248c Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x03\x02\x02\x01\x14\x00s\x00h\x00e\x00l\x00l\x00_\x00i\x00d\x00e\x00n\x00t\x00i\x00f\x00i\x00e\x00r\x00_\x00k\x00e\x00y' @ 522 : 1
+2021/04/03-20:15:18.642 248c Compacting 1@1 + 1@2 files
+2021/04/03-20:15:18.645 248c Generated table #9@1: 116 keys, 4677 bytes
+2021/04/03-20:15:18.645 248c Compacted 1@1 + 1@2 files => 4677 bytes
+2021/04/03-20:15:18.647 248c compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/04/03-20:15:18.648 248c Delete type=2 #5
+2021/04/03-20:15:18.648 248c Delete type=2 #8
+2021/04/03-20:15:18.648 248c Manual compaction at level-1 from '\x00\x03\x02\x02\x01\x14\x00s\x00h\x00e\x00l\x00l\x00_\x00i\x00d\x00e\x00n\x00t\x00i\x00f\x00i\x00e\x00r\x00_\x00k\x00e\x00y' @ 522 : 1 .. (end); will stop at (end)
